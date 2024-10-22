@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#imagen-grande{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
