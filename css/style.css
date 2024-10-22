@@ -7,3 +7,30 @@ button{
     height: 10%;
     width: 10%;
 }
+
+.menu{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#img1{
+    height: 50%;
+    width: 50%;
+}
+
+#img2{
+    height: 50%;
+    width: 50%;
+}
+
+#img3{
+    height: 50%;
+    width: 50%;
+}
