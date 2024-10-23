@@ -49,3 +49,7 @@ a{
 body{
     background-image: url(https://m.media-amazon.com/images/I/6127qsu+YbL.jpg);
 }
+
+#derechos{
+    color: white !important;
+}
