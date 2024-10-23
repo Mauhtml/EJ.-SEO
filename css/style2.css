@@ -14,6 +14,16 @@ a{
     color: white;
 }
 
+#menu{
+    margin: 0;
+    padding: 0;
+}
+
+#submenu{
+    margin: 0;
+    padding: 0;
+}
+
 .quees{
     width: 50%;
     margin-left: 25%;
