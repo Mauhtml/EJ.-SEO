@@ -16,12 +16,13 @@
         </div>
     </header>
     <nav class="row container-fluid" id="menu">
-        <button type="button" class="btn btn-primary col col-lg-6"><a href="../paginas/jedi.html">JEDIS</a></button>
-        <button type="button" class="btn btn-danger col col-lg-6"><a href="../paginas/siths.html">SITHS</a></button>
+        <button type="button" class="btn btn-primary col col-lg-4"><a href="../paginas/jedi.html" id="jedis">JEDIS</a></button>
+        <button type="button" class="btn btn-secondary col col-lg-4"><a href="../index.html" id="sith">INICIO</a></button>
+        <button type="button" class="btn btn-danger col col-lg-4"><a href="../paginas/siths.html" id="sith">SITHS</a></button>
     </nav>
     <div class="row container-fluid" id="submenu">
-        <button type="button" class="btn btn-secondary col col-lg-6"><a href="../index.html">¿Que es?</a></button>
-        <button type="button" class="btn btn-secondary col col-lg-6"><a href="../index.html">¿De que se trata?</a></button>
+        <button type="button" class="btn btn-secondary col col-lg-6"><a href="#queson" id="quesona">¿Que son?</a></button>
+        <button type="button" class="btn btn-secondary col col-lg-6"><a href="#quienesson" id="quienesona">¿Quienes son?</a></button>
     </div>
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -57,6 +58,30 @@
                     obsesionados con adquirir poder sin importar el costo.</p>
             </div>
         </div>
+        <div id="quienesson">
+            <div id="tituloquie">
+                <h2>¿Quienes son los sith?</h2>
+            </div>
+            <div>
+                <p>Darth Maul Darth Tyranus Darth Vader Starkiller Darth Marr Exar Kun 
+                    Darth Malgus Revan Darth Malak Darth Nihilus Darth Krayt Darth Caedus Darth Tenebrae 
+                    Darth Bane Darth Plagueis Darth Sidious</p>
+            </div>
+        </div>
       </main>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary" id="derechos">© 2024 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#" id="twit"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
 </body>
 </html>

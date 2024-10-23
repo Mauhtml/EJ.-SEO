@@ -3,11 +3,43 @@
     padding: 0;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-hiperespacial-3d-efecto-tunel-urdimbre_1048-12526.jpg);
+}
+
+#menu{
+    margin: 0;
+    padding: 0;
+}
+
+#submenu{
+    margin: 0;
+    padding: 0;
+}
+
+#quesona{
+    text-decoration: none;
+    color: white;
+}
+#quienesona{
+    text-decoration: none;
+    color: white;
+}
+
+#jedis{
+    text-decoration: none;
+    color: white;
+}
+
+#sith{
+    text-decoration: none;
+    color: white;
+}
+
 body{
-    background-image: url(../asets/imagenes/paisaje.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(37, 131, 194);
 }
 
 button{
@@ -82,3 +114,15 @@ p{
     display: flex;
 }
 
+.sableyoda{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.descsay{
+    width: 50%;
+}
+
+#derechos{
+    color: white !important;
+}

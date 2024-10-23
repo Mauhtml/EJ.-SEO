@@ -14,7 +14,21 @@ header{
     padding: 0;
 }
 
-a{
+#quesona{
+    text-decoration: none;
+    color: white;
+}
+#quienesona{
+    text-decoration: none;
+    color: white;
+}
+
+#jedis{
+    text-decoration: none;
+    color: white;
+}
+
+#sith{
     text-decoration: none;
     color: white;
 }
@@ -34,4 +48,42 @@ body{
 
 #greicarr{
     height: 800px;
+}
+
+#queson{
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-color: black;
+    box-shadow: 16px 16px wheat;
+}
+
+#queson h2{
+    color: white;
+}
+
+#queson p{
+    color: white;
+}
+
+#quienesson{
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-color: black;
+    box-shadow: 16px 16px wheat;
+}
+
+#quienesson h2{
+    color: white;
+}
+
+#quienesson p{
+    color: white;
+}
+
+#derechos{
+    color: white !important;
 }
