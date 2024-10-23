@@ -13,3 +13,39 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.quees{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-color: black;
+    margin-top: 5%;
+    box-shadow: 15px -16px #011025;
+}
+
+.quees p{
+    color: white;
+}
+
+.quees h2{
+    color: white;
+}
+
+.quetrata{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+    background-color: black;
+    margin-top: 5%;
+    box-shadow: 15px -16px #011025;
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
+
+body{
+    background-image: url(https://m.media-amazon.com/images/I/6127qsu+YbL.jpg);
+}
